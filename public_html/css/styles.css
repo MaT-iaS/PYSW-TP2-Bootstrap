@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : Administrador
 */
 
+.contenedor{
+    overflow: hidden;
+}
+
 .main{
     background: #F2EDED;
 }
@@ -15,6 +19,8 @@ and open the template in the editor.
     background: #A9A3A3;
     border-radius: 5px;
     color: #FF3300;
+    padding-bottom: 32767px;
+    margin-bottom: -32767px;
 }
 .aside a{
     color: #C92314;
@@ -28,10 +34,12 @@ header{
     color: #fff;
 }
 
-fecha{
+.fecha{
+    background: radial-gradient(#1a8ae7,#1a41e7);
+    color: white;
+    border-radius: 10px;
     
 }
-
 
 
 footer{
